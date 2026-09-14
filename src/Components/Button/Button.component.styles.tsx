@@ -1,41 +1,42 @@
-import { StyleSheet, ViewStyle, TextStyle } from 'react-native';
+import { StyleSheet, type ViewStyle, type TextStyle } from 'react-native';
 
-import { ButtonModuleStyles } from '../../Types';
+import type { ButtonModuleStyles } from '../../Types';
 
 const staticStyles = StyleSheet.create({
-    loadingButtonWrapper: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 8,
-    },
-    contentButtonWrapper: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        gap: 8,
-    },
+  loadingButtonWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  contentButtonWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    paddingVertical: 4,
+  },
 });
 
 const buttonModuleStyles: ButtonModuleStyles = {
-    ...staticStyles,
-    loadingTextStyle: (contentColor: string): TextStyle => ({
-        fontSize: 14,
-        fontWeight: '600',
-        color: contentColor,
-    }),
+  ...staticStyles,
+  loadingTextStyle: (contentColor: string): TextStyle => ({
+    fontSize: 14,
+    fontWeight: '600',
+    color: contentColor,
+  }),
 
-    contentButtonText: (contentColor: string): TextStyle => ({
-        fontSize: 14,
-        fontWeight: '600',
-        color: contentColor,
-    }),
+  contentButtonText: (contentColor: string): TextStyle => ({
+    fontSize: 14,
+    fontWeight: '600',
+    color: contentColor,
+  }),
 
-    buttonWrapper: (disabled: boolean, borderRadius: number): ViewStyle => ({
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
-        opacity: disabled ? 0.6 : 1,
-        borderRadius,
-    }),
+  buttonWrapper: (disabled: boolean, borderRadius: number): ViewStyle => ({
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    opacity: disabled ? 0.6 : 1,
+    borderRadius,
+  }),
 };
 
 export default buttonModuleStyles;

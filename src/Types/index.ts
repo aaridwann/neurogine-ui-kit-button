@@ -1,8 +1,8 @@
-import { StyleProp, TextStyle, ViewStyle } from "react-native";
+import type { StyleProp, TextStyle, ViewStyle } from 'react-native';
 
-import Constants from "../Constants/Constants";
+import Constants from '../Constants/Constants';
 
-export const { SIZE, TYPE, VARIANT } = Constants
+export const { SIZE, TYPE, VARIANT } = Constants;
 
 export type VariantType = typeof VARIANT[keyof typeof VARIANT] | string;
 export type SizeType = typeof SIZE[keyof typeof SIZE] | string;

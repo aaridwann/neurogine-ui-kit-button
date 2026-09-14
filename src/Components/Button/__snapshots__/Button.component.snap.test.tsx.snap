@@ -1,0 +1,482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders correctly in disabled state 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007bff",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 0.6,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "600",
+          },
+          undefined,
+        ]
+      }
+    >
+      Disabled Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button Component renders correctly in loading state 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007bff",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+      }
+    }
+  >
+    <ActivityIndicator
+      color="#ffffff"
+      size="small"
+    />
+  </View>
+</View>
+`;
+
+exports[`Button Component renders correctly with all combined props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007bff",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 12,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "600",
+          },
+          undefined,
+        ]
+      }
+    >
+      Combined Props Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button Component renders correctly with custom style 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "red",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "marginTop": 16,
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "600",
+          },
+          undefined,
+        ]
+      }
+    >
+      Custom Styled Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button Component renders correctly with default props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007bff",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "600",
+          },
+          undefined,
+        ]
+      }
+    >
+      Click Me
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button Component renders correctly with primary variant 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007bff",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "600",
+          },
+          undefined,
+        ]
+      }
+    >
+      Primary Button
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Button Component renders correctly with secondary variant 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#6c757d",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "fontWeight": "600",
+          },
+          undefined,
+        ]
+      }
+    >
+      Secondary Button
+    </Text>
+  </View>
+</View>
+`;
